@@ -1,0 +1,5 @@
+                           Df Sum Sq Mean Sq F value   Pr(>F)    
+as.factor(dat[[prov_col]])  2   2528    1264   45.19 2.46e-12 ***
+Residuals                  55   1538      28                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
