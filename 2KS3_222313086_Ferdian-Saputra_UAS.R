@@ -65,7 +65,7 @@ make_kategori <- function(x, n = 3, label = NULL) {
 # UI
 ui <- dashboardPage(
   skin = "blue",
-  dashboardHeader(title = "Insciety Dashboard"),
+  dashboardHeader(title = "Inspisciety Dashboard"),
   dashboardSidebar(
     sidebarMenu(
       menuItem("Beranda", tabName = "beranda", icon = icon("home")),
