@@ -19,7 +19,7 @@ library(shinycssloaders)
 library(lmtest)
 
 # Data Utama
-path_data <- "UAS - Data + GIS.xlsx"
+path_data <- "UAS-Data+GIS.xlsx"
 path_geojson <- "indonesia511.geojson"
 data_raw <- readxl::read_excel(path_data, sheet = 1)
 geojson <- sf::st_read(path_geojson, quiet = TRUE)
@@ -92,8 +92,8 @@ ui <- dashboardPage(
               p("Dasbor ini membahas Ketimpangan Ekonomi Wilayah di Indonesia. Variabel respon utama: POVERTY (kemiskinan). Variabel kontrol: indikator sosial-ekonomi lain (lihat Metadata di bawah)."),
               h3("Sumber Data"),
               tags$ul(
-                tags$li("UAS - Data + GIS.xlsx (data utama kabupaten/kota)"),
-                tags$li("UAS - Matrik Penimbang Jarak.xlsx (matriks jarak/spasial)"),
+                tags$li("UAS-Data+GIS.xlsx (data utama kabupaten/kota)"),
+                tags$li("UAS-Matrik_Penimbang_Jarak.xlsx (matriks jarak/spasial)"),
                 tags$li("indonesia511.geojson (peta wilayah)"),
                 tags$li("Metadata.pdf")
               ),
